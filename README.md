@@ -6,6 +6,19 @@ This repository contains two different parts:
 * [implementation](implementation): this folder contains the implementation of an Android mobile app for searching for available parking slots and a script that uses the previously trained model to communicate, in real-time, to all app users which slots are free and which are occupied using video coming from a real parking camera.
 ## Dataset
 [CNRPark+EXT](http://cnrpark.it) is a dataset for visual occupancy detection of parking lots of roughly 150,000 labeled images (patches) of vacant and occupied parking spaces, built on a parking lot of 164 parking spaces. Is composed by images collected from November 2015 to February 2016 under various weather conditions by 9 cameras with different perspectives and angles of view. CNR-EXT captures different situations of light conditions, and it includes partial occlusion patterns due to obstacles (trees, street lamps, other cars) and partial or global shadowed cars.
+
+Parking Slots:
+
+|  |  |  |  |
+|:----:|:----:|:----:|:----:|
+| <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/11busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/13busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/34busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/38busy.jpg" width="150" height="150"> |
+| <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/11empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/13empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/34empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/38empty.jpg" width="150" height="150"> |
+
+Entire Parking Images from two different cameras:
+
+<img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_1.jpg" width="400" height="300">                  <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_a.jpg" width="400" height="300"> 
+
+
 ## Model
 ## Integration of the classification model with the mobile app
 ## References
