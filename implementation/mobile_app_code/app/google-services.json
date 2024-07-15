@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "445685050276",
+    "firebase_url": "https://espark-7ad35-default-rtdb.firebaseio.com",
+    "project_id": "espark-7ad35",
+    "storage_bucket": "espark-7ad35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445685050276:android:18d5c26e7f322818d1ef31",
+        "android_client_info": {
+          "package_name": "com.example.espark_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445685050276-htaq78lnkhtgtahufjqsgah60phauls6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7FQh2HGyjA9AuuS5ivtKMbZ5pOtmO1eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445685050276-htaq78lnkhtgtahufjqsgah60phauls6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESPark_1"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.espark_1.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.CustomCaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity
+            android:name="com.example.espark_1.QRcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ProvaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.Tutorial4Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.Tutorial3Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.Tutorial2Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.CardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.VehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.RegisterProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.FilterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ExtendDurationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.SummaryParking"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.PayCardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.PayActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ParkingSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.DrawerBaseActivityFilter"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.DrawerBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.Favorite_parkingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.ParkingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.espark_1.Tutorial1Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="OPEN_ACTIVITY_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.espark_1.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.example.espark_1.NotificationReceiver" />
+    </application>
+
+</manifest>

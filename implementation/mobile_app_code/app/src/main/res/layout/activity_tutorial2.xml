@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00529F"
+        android:orientation="vertical"
+        android:textAlignment="center">
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_white" />
+
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See Available Parking Slot\n             In Real-Time"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/btnRegister1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       Add filters, choose a parking, \nsee the availability of parking slot before your arrival \nto reduce the waste of time to search an available slot."
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnnext"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/btn_background_1"
+            android:text="Next"
+            android:textColor="#00529F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnskip"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/btn_background_3"
+            android:text="Skip"
+            android:textColor="#00529F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</layout>

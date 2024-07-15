@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ESPark</string>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="channel_name">CHANNEL NAME</string>
+    <string name="channel_description">CHANNEL DESC</string>
+</resources>

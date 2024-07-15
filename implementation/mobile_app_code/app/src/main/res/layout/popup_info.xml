@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:gravity="center">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/info_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/icon_info"/>
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        android:text="'Choose an available parking slot' allows you to see and possibly choose an available slot that suits you before your arrival in the car park (for example a slot closest to the entrance, or a slot on a first floor of parking), this has been designed to eliminate long searches of a free place. Furthermore, by selecting a slot you will be updated in real time in case it becomes busy.     We remind you that this is NOT a reservation, but just a way to choose the right slot for you."
+        android:textColor="#00529F"
+        android:textSize="15sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_close"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_background_2"
+        android:drawablePadding="20dp"
+        android:paddingStart="0dp"
+        android:text="close"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+</LinearLayout>
+    </LinearLayout>
+</layout>

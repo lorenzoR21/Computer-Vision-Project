@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/f"
+            android:title="Filter" />
+        <item android:id="@+id/vehicle"
+            android:title="Vehicle" />
+    </group>
+    <group android:checkableBehavior="all">
+        <item android:id="@+id/car"
+            android:title="Car" />
+        <item android:id="@+id/motor"
+            android:title="Motorcycle" />
+    </group>
+
+    <group>
+        <item android:id="@+id/line"
+            android:title="Line Type" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item android:id="@+id/nav_white"
+            android:title="White" />
+        <item android:id="@+id/nav_yellow"
+            android:title="Yellow" />
+        <item android:id="@+id/nav_blue"
+            android:title="Blue" />
+        <item android:id="@+id/nav_pink"
+            android:title="Pink" />
+        <item android:id="@+id/nav_green"
+            android:title="Green" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/button"
+            android:title="Search" />
+    </group>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape drawable for the rectangle -->
+    <item>
+
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="10dp" />
+            <size
+                android:width="30dp"
+                android:height="30dp"
+            />
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Icon centered within the rectangle -->
+    <item
+        android:drawable="@drawable/icon_check"
+        android:gravity="center"
+        android:width="20dp"
+        android:height="20dp" />
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="right_navigation_button_margin">16dp</dimen>
+    <dimen name="container_height">150dp</dimen>
+    <dimen name="text_padding">8dp</dimen>
+    <dimen name="text_size">5dp</dimen>
+    <dimen name="button_padding_start">16dp</dimen>
+    <dimen name="button_padding_end">16dp</dimen>
+    <dimen name="container_margin_top">10dp</dimen>
+    <dimen name="elevation_value">20dp</dimen>
+
+</resources>
