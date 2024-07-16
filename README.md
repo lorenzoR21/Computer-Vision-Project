@@ -16,7 +16,7 @@ Parking Slots:
 
 Entire Parking Images from two different cameras:
 
-<img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_1.jpg" width="400" height="300">                  <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_a.jpg" width="400" height="300"> 
+<img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_a.jpg" width="400" height="300">                  <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_b.jpg" width="400" height="300"> 
 
 
 ## Model
