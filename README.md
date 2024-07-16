@@ -14,7 +14,7 @@ Parking Slots:
 | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/11busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/13busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/34busy.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/38busy.jpg" width="150" height="150"> |
 | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/11empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/13empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/34empty.jpg" width="150" height="150"> | <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/38empty.jpg" width="150" height="150"> |
 
-Entire Parking Images from two different cameras:
+Entire Parking Images from two different cameras (parking slots are manually segmented using squared masks):
 
 <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_a.jpg" width="400" height="300">                  <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/cam_b.jpg" width="400" height="300"> 
 
