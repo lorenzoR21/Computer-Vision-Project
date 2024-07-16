@@ -21,6 +21,8 @@ Entire Parking Images from two different cameras:
 
 ## Model
 ## Integration of the classification model with the mobile app
+<img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/app_parking.jpg" width="200" height="444">   <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/ann_image.png" width="590" height="444">
+
 ## References
 * [Parking Lot Occupancy Detection with Improved MobileNetV3](https://doi.org/10.3390/s23177642)
 ## Author
