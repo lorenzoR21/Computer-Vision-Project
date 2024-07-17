@@ -20,6 +20,7 @@ Entire Parking Images from two different cameras (parking slots are manually seg
 
 
 ## Model
+The [main notebook](notebook/parking_slot_classification.ipynb) contains the development and training of the real-time parking slot classification model. The model used is an improved version of the MobileNetV3 model. The model takes as input the images of the individual parking slots. In particular, the images of individual parking slots are extracted from images of entire parking lots using the coordinates of the individual parking slots.
 ## Integration of the classification model with the mobile app
 <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/app_parking.jpg" width="200" height="444">   <img src="https://github.com/lorenzoR21/Computer-Vision-Project/blob/main/readme_images/ann_image.png" width="590" height="444">
 
